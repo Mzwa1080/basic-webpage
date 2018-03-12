@@ -1,0 +1,123 @@
+html, body {
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:  #C2FAFD;
+  font-family: Arial, sans-serif, monospace, helvetica;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%;
+  margin: 0 ;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.topbar {
+  text-align: center;
+  border-bottom: 1px #ddd solid;
+  height: 14rem;
+  line-height: 6rem;
+  color: #fff;
+  font-size: 150%;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5io_kNlQR9sv9zO6Lz7K_4Pxtew1Yelfr02zWZ-GOe_O4aTSQ') center center;
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  padding: 2rem;
+}
+small {
+  color: #666;
+  font-size: 80%;
+}
+.profile-picture {
+  width: 10rem;
+  height: 10rem;
+  border: 1px #ddd solid;
+  border-radius: 100%;
+  margin: -7rem auto 0 auto;
+  background: url('Webp.net-resizeimage.jpg') center center no-repeat;
+  background-size: cover;
+  clear: both;
+}
+
+
+
+p{
+  float:right;
+  width:44%;
+  padding-top: %;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+  width: 50%;
+}
+.his1 p{
+  font-size: 80%;
+  /*margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;*/
+}
+
+.his2 p{
+  font-size: 80%;
+  float: left;
+}
+
+.his3 p{
+  font-size: 80%;
+}
+/*p {
+  float:right;
+  width:50%;
+  padding-top: 90px;
+  /*margin-left: 5em;
+  margin-right: 3em;
+}
+*/
+@media screen and (min-width: 768px) {
+  /* Delete these styles for mobile */
+  .profile-title {
+    z-index: 1000;
+    margin-top: -3rem;
+  }
+}
